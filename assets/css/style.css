@@ -176,14 +176,10 @@ img.OverflowIcon {
 }
 
 /* Portfolio Page */
-.Row1, .Row2, .Row3 {
-    float: none;
-}
-
 img.Hangman {
-    width: 150px;
-    height: 200px;
-    padding: 0 25px 0 25px;
+    width: 110px;
+    height: 160px;
+    padding: 0 20px 0 20px;
     position: relative;
     float: left;
 }
@@ -191,79 +187,105 @@ img.Hangman {
 a.Hangman2 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 160px;
     text-decoration: none;
     text-align: center;
     position: absolute;
-    top: 402px;
+    top: 370.6px;
     left: 280px;
     float: left;
 }
 
 img.RPG {
-    width: 200px;
-    height: 180px;
+    width: 160px;
+    height: 140px;
     padding: 10px 0 10px 0;
     background: #ffffff;
-    margin-left: 100px;
+    margin-left: 30px;
     float: left;
+    top: -55px;
+    left: 50px;
     position: relative;
 }
 
 a.RPG2 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 160px;
     text-decoration: none;
     text-align: center;
     float: left;
     position: absolute;
-    left: 579px;
-    
+    left: 511.7px;
+    top: 370px;
 }
 
 img.Trivia {
-    clear: both;
-    width: 200px;
-    height: 150px;
-    padding: 25px 0 25px 0;
+    width: 160px;
+    height: 110px;
+    padding: 20px 0 20px 0;
     background: #ffffff;
-    margin-left: 100px;
+    position: relative;
+    top: -110px;
+    left: 128px;
 }
 
 a.Trivia2 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 160px;
     text-decoration: none;
     text-align: center;
+    float: left;
+    position: absolute;
+    left: 750px;
+    top: 370px;
 }
 
 img.Rutgers {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    top: -100px;
 }
 
 a.Rutgers2 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 160px;
     text-decoration: none;
     text-align: center;
+    float: left;
+    position: absolute;
+    left: 281.7px;
+    top: 580.5px;
 }
 
 img.RockPaperScissors {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background: #ffffff;
+    float: left;
+    position: relative;
+    top: -160px;
+    left: 100px;
 }
 
 a.RockPaperScissors2 {
     background: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 160px;
     text-decoration: none;
     text-align: center;
+    float: left;
+    position: absolute;
+    top: 580px;
+    left: 544px;
+}
+
+section.PortfolioPage2, .Row3 {
+    margin: 0 0 -100px 0;
 }
 
 /* Footer for Everyone */
