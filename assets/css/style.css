@@ -58,7 +58,7 @@ img.Selfie {
     margin: 0 15px 0 0;
 }
 
-section.AboutMe {
+section.AboutMe, section.PortfolioPage, section.ThankYou {
     width: 70%;
     margin: 3% 15% 3% 15%;
     float: left;
@@ -68,7 +68,7 @@ section.AboutMe {
 }
 
 /* Headlines */
-.AboutMe, .ContactMe, .PortfolioMe {
+.AboutMe, .ContactMe, .PortfolioPage, .ThankYou {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 24px;
@@ -130,7 +130,7 @@ a.Submit:hover {
     box-shadow: 0 14px 40px 0 rgba(0,0,0,0.24), 0 19px 60px 0 rgba(0,0,0,0.19);
 }
 
-a.Submit:visited {
+a.Submit:visited, a.Hangman2:visited, a.RPG2:visited, a.Trivia2:visited, a.Rutgers2:visited, a.RockPaperScissors2:visited {
     color: #ffffff;
 }
 
@@ -176,27 +176,67 @@ img.OverflowIcon {
 }
 
 /* Portfolio Page */
-.PortfolioMe {
-    width:70%;
-    background: #ffffff;
-    border: #dddddd;
-    float: left;
-
+.Row1, .Row2, .Row3 {
+    float: none;
 }
 
 img.Hangman {
-    width: 200px;
+    width: 150px;
     height: 200px;
+    padding: 0 25px 0 25px;
+    position: relative;
+    float: left;
+}
+
+a.Hangman2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 402px;
+    left: 280px;
+    float: left;
 }
 
 img.RPG {
     width: 200px;
-    height: 200px;
+    height: 180px;
+    padding: 10px 0 10px 0;
+    background: #ffffff;
+    margin-left: 100px;
+    float: left;
+    position: relative;
+}
+
+a.RPG2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 579px;
+    
 }
 
 img.Trivia {
+    clear: both;
     width: 200px;
-    height: 200px;
+    height: 150px;
+    padding: 25px 0 25px 0;
+    background: #ffffff;
+    margin-left: 100px;
+}
+
+a.Trivia2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
 }
 
 img.Rutgers {
@@ -204,9 +244,26 @@ img.Rutgers {
     height: 200px;
 }
 
+a.Rutgers2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+}
+
 img.RockPaperScissors {
     width: 200px;
     height: 200px;
+    background: #ffffff;
+}
+
+a.RockPaperScissors2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Footer for Everyone */
